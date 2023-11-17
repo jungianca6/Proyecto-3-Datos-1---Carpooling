@@ -7,8 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  *
  *  La clase principal que inicia la aplicación Spring Boot
  *
- * @autor
- *
  *
  */
 @SpringBootApplication
