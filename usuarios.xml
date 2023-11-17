@@ -1,4 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><usuarios>
+        
+    <Chofer>
+                
+        <Nombre>Giancarlo</Nombre>
+                
+        <ID>0</ID>
+                
+        <Calificación>null</Calificación>
+                
+        <Amigos>null</Amigos>
+                
+        <Contraseña>null</Contraseña>
+            
+    </Chofer>
+    
+    <Empleado>
+        <Nombre>Julian</Nombre>
+        <ID>0</ID>
+        <Calificación>null</Calificación>
+        <Amigos>null</Amigos>
+        <Contraseña>null</Contraseña>
+    </Empleado>
     <Chofer>
         <Nombre>Giancarlo</Nombre>
         <ID>0</ID>
@@ -6,4 +28,4 @@
         <Amigos>null</Amigos>
         <Contraseña>null</Contraseña>
     </Chofer>
-<Empleado><Nombre>Julian</Nombre><ID>0</ID><Calificación>null</Calificación><Amigos>null</Amigos><Contraseña>null</Contraseña></Empleado></usuarios>
+<Empleado><Nombre>Julian</Nombre><ID>0</ID><Calificación>null</Calificación><Amigos>null</Amigos><Contraseña>null</Contraseña></Empleado><Chofer><Nombre>Brayan</Nombre><ID>0</ID><Calificación>null</Calificación><Amigos>null</Amigos><Contraseña>null</Contraseña></Chofer><Empleado><Nombre>Emanuel</Nombre><ID>0</ID><Calificación>null</Calificación><Amigos>null</Amigos><Contraseña>null</Contraseña></Empleado></usuarios>

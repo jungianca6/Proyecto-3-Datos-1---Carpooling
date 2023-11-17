@@ -9,10 +9,10 @@ import java.util.*;
 
 public class ChoferModel {
     private String name;
-    private Double calificacion;
     private int ID;
-    private ArrayList<EmpleadoModel> amigos;
     private String contraseña;
+    private Double calificacion;
+    private ArrayList<EmpleadoModel> amigos;
 
 
     /**
@@ -57,6 +57,7 @@ public class ChoferModel {
     }
 
 
+
     /**
      * Obtiene la calificación del chofer.
      *
@@ -78,7 +79,7 @@ public class ChoferModel {
         this.calificacion = calificacion;
     }
 
-    /**
+   /**
      * Obtiene el ID del chofer.
      *
      * @return El ID del chofer.
