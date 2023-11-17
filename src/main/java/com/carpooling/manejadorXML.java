@@ -20,6 +20,14 @@ import org.w3c.dom.NodeList;
 import org.w3c.dom.Text;
 import org.xml.sax.SAXException;
 
+
+/**
+ *
+ * Lee un archivo XML y muestra la información de usuarios según el tipo especificado.
+ *
+ */
+
+
 public class manejadorXML {
     /*public static void main(String[] args) {
         ChoferService choferco = new ChoferService();
@@ -34,7 +42,12 @@ public class manejadorXML {
         empleadoco.guardarEmpleado(empleado);
     }
     */
-    
+
+    /**
+     * Lee un archivo XML y muestra la información de usuarios según el tipo especificado.
+     *
+     * @param type  El tipo de usuario a leer ("chofer" o "empleado").
+     */
 
     public static void leerXML(String type) {
         try {
@@ -73,6 +86,16 @@ public class manejadorXML {
         }
     }
 
+    /**
+     *
+     * Verifica las credenciales de un usuario en un archivo XML.
+     *
+     *
+     * @param nombre  El nombre de usuario
+     * @param contraseña   La contraseña del usuario.
+     * @return true si las credenciales son válidas, false en caso contrario.
+     */
+
     public static boolean ingresar(String nombre, String contraseña) {
         try {
             File archivo = new File("usuarios.xml");
@@ -110,6 +133,19 @@ public class manejadorXML {
         }
         return false;
     }
+
+    /**
+     *
+     * Crea o actualiza un archivo XML con la información de un chofer.
+     *
+     * @param nomArchivo  El nombre del archivo XML a crear o actualizar.
+     * @param chofer  El modelo de chofer con la información a almacenar.
+     * @throws ParserConfigurationException Si hay un error en la configuración del parser.
+     * @throws TransformerConfigurationException Si hay un error en la configuración del transformer.
+     *
+     */
+
+
 
     public static void crearXMLchofer(String nomArchivo, ChoferModel chofer) throws ParserConfigurationException, TransformerConfigurationException, TransformerException {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
@@ -189,6 +225,22 @@ public class manejadorXML {
             e.printStackTrace();
         }
     }
+
+    /**
+     *
+     *
+     *
+     * @param nomArchivo  El nombre del archivo XML a crear o actualizar.
+     * @param empleado    El modelo de empleado con la información a almacenar.
+     * @throws ParserConfigurationException Si hay un error en la configuración del parser.
+     * @throws TransformerConfigurationException Si hay un error en la configuración del transformer.
+     * @throws TransformerException Si ocurre un error durante la transformación del documento.
+     */
+
+
+
+
+
     public static void crearXMLempleado(String nomArchivo, EmpleadoModel empleado) throws ParserConfigurationException, TransformerConfigurationException, TransformerException {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 
