@@ -4,9 +4,7 @@ import java.util.*;
 
 public class ChoferModel {
     private String name;
-    private Double calificacion;
     private int ID;
-    private ArrayList<EmpleadoModel> amigos;
     private String contraseña;
 
     public String getContraseña() {
@@ -25,13 +23,6 @@ public class ChoferModel {
         this.name = name;
     }
 
-    public Double getCalificacion() {
-        return calificacion;
-    }
-
-    public void setCalificacion(Double calificacion) {
-        this.calificacion = calificacion;
-    }
 
     public int getID() {
         return ID;
@@ -39,13 +30,5 @@ public class ChoferModel {
 
     public void setID(int ID) {
         this.ID = ID;
-    }
-
-    public ArrayList<EmpleadoModel> getAmigos() {
-        return amigos;
-    }
-
-    public void setAmigos(ArrayList<EmpleadoModel> amigos) {
-        this.amigos = amigos;
     }
 }
