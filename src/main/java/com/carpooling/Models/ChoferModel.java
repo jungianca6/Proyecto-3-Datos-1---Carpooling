@@ -7,7 +7,6 @@ public class ChoferModel {
     private Double calificacion;
     private int ID;
     private ArrayList<EmpleadoModel> amigos;
-
     private String contraseña;
 
     public String getContraseña() {

@@ -7,7 +7,6 @@ public class EmpleadoModel {
     private Double calificacion;
     private int ID;
     private ArrayList<ChoferModel> amigos;
-
     private String contraseña;
 
     public String getName() {
