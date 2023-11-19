@@ -1,7 +1,6 @@
 package com.carpooling;
 
-class InsertionSort {
-
+class Insertion{
     public static void main(String[] args) {
         int[] array = {5, 2, 8, 7, 1, 3};
         System.out.println("Array antes de la ordenación:");
